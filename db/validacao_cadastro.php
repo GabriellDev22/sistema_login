@@ -1,6 +1,4 @@
-
 <?php
-
 $pdo = new PDO(
     "mysql:host=localhost;dbname=introducao_computacao;",
     "root",
@@ -44,6 +42,3 @@ $stmt->execute([
 // Cadastro concluído
 header("Location: ../index/page_login.php");
 exit;
-
-?>
-

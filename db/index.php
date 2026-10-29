@@ -1,27 +1,22 @@
 <?php
-
 ini_set("display_errors", 0);
 ini_set("display_startup_errors", 0);
 error_reporting(0);
-
 session_start();
 
 include "session.php";
-
 ?>
 
 <!DOCTYPE html>
 <html lang="pt-BR">
 
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Início - PHP</title>
 
     <style>
-
         * {
             box-sizing: border-box;
         }
@@ -36,12 +31,10 @@ include "session.php";
 
             font-family: Arial, sans-serif;
 
-            background: linear-gradient(
-                135deg,
-                #2b2d42,
-                #4f5b93,
-                #777bb4
-            );
+            background: linear-gradient(135deg,
+                    #2b2d42,
+                    #4f5b93,
+                    #777bb4);
         }
 
         #container {
@@ -122,7 +115,6 @@ include "session.php";
         #logout:active {
             transform: scale(0.98);
         }
-
     </style>
 
 </head>
@@ -152,8 +144,7 @@ include "session.php";
             <button
                 id="logout"
                 type="submit"
-                name="logout"
-            >
+                name="logout">
                 Sair
             </button>
 
